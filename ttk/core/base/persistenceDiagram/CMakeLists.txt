@@ -1,0 +1,16 @@
+ttk_add_base_library(persistenceDiagram
+  SOURCES
+    PersistenceDiagram.cpp
+  HEADERS
+    PersistenceDiagram.h
+    PersistenceDiagramUtils.h
+  DEPENDS
+    triangulation
+    ftmTreePP
+    persistentSimplexPairs
+    progressiveTopology
+    approximateTopology
+    discreteMorseSandwich
+    discreteMorseSandwichMPI
+    arrayPreconditioning
+    )

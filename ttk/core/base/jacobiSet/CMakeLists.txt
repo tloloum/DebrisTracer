@@ -1,0 +1,11 @@
+ttk_add_base_library(jacobiSet
+  SOURCES
+    JacobiSet.cpp
+  HEADERS
+    JacobiSet.h
+    JacobiSet_Template.h
+  DEPENDS
+    scalarFieldCriticalPoints
+    triangulation
+    unionFind
+    )

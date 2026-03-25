@@ -1,0 +1,5 @@
+NAME
+  ttkDebrisTracer
+DEPENDS
+  ttkAlgorithm
+  VTK::FiltersGeneral

@@ -1,0 +1,12 @@
+ttk_add_base_library(trackingFromFields
+  SOURCES
+    TrackingFromFields.cpp
+  HEADERS
+    TrackingFromFields.h
+  DEPENDS
+    bottleneckDistance
+    persistenceDiagram
+    trackingFromCriticalPoints
+    trackingFromPersistenceDiagrams
+    triangulation
+    )

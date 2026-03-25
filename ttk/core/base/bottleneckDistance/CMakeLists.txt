@@ -1,0 +1,12 @@
+ttk_add_base_library(bottleneckDistance
+  SOURCES
+    BottleneckDistance.cpp
+    GabowTarjan.cpp
+  HEADERS
+    BottleneckDistance.h
+    GabowTarjan.h
+  DEPENDS
+    geometry
+    assignmentSolver
+    persistenceDiagram
+    )

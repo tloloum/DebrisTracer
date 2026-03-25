@@ -1,0 +1,10 @@
+ttk_add_base_library(discreteGradient
+  SOURCES
+    DiscreteGradient.cpp
+  HEADERS
+    DiscreteGradient.h
+    DiscreteGradient_Template.h
+  DEPENDS
+    triangulation
+    ftmTree
+    )

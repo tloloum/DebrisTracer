@@ -1,0 +1,10 @@
+ttk_add_base_library(scalarFieldCriticalPoints
+  SOURCES
+    ScalarFieldCriticalPoints.cpp
+  HEADERS
+    ScalarFieldCriticalPoints.h
+  DEPENDS
+    triangulation
+    unionFind
+    progressiveTopology
+    )
