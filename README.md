@@ -23,7 +23,7 @@ These instructions have been tested with a fresh install of Ubuntu 24.04 LTS. Ad
  git clone https://github.com/tloloum/DebrisTracer.git
 ```
 
-2. At the root of the repository, run
+2. At the root of the repository, run (it can take a while)
 
 ```
 ./install.sh
