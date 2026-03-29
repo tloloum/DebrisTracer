@@ -20,7 +20,7 @@ These instructions have been tested with a fresh install of Ubuntu 24.04 LTS. Ad
 1. Download this repository  or run
    
 ```
- git clone https://github.com/thom-dani/BondMatcher.git
+ git clone https://github.com/tloloum/DebrisTracer.git
 ```
 
 2. At the root of the repository, run
