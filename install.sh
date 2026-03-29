@@ -10,6 +10,7 @@ sudo apt install -y libgl1-mesa-dev libxt-dev libqt5help5 python3-dev python3-nu
 sudo apt install -y python3-sklearn python3-pip  
 sudo apt install -y git  
 sudo apt install -y build-essential  
+sudo apt install -y libeigen3-dev 
 
 pip install umap-learn --break-system-packages
 alias ninja=ninja-build
@@ -36,7 +37,7 @@ cd ../../ttk
 mkdir build
 cd build
 paraviewPath=`pwd`/../../paraview/install/lib/cmake/paraview-5.13
-cmake -G Ninja -DCMAKE_INSTALL_PREFIX=../install -DParaView_DIR=$paraviewPath -DTTK_ENABLE_SQLITE3=1 -DTTK_ENABLE_64BIT_IDS=1 ..
+cmake -G Ninja -DCMAKE_INSTALL_PREFIX=../install -DParaView_DIR=$paraviewPath -DTTK_ENABLE_EIGEN=ON -DTTK_ENABLE_SQLITE3=1 -DTTK_ENABLE_64BIT_IDS=1 ..
 ninja install
 
 TTK_PREFIX=`pwd`/../install
