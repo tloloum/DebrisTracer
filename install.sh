@@ -18,7 +18,7 @@ export PATH=$PATH:/usr/lib64/openmpi/bin/
 # ParaView installation
 git clone https://gitlab.kitware.com/paraview/paraview.git
 cd paraview
-git checkout v5.13.1
+git checkout v6.0.1
 git submodule update --init --recursive
 mkdir build
 cd build
