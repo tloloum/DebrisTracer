@@ -61,7 +61,7 @@ or use the following scripts to automatically run the examples.
 ## Running an example
 To run the provided example :
 
-1. Download the reference dataset : [90° impact (1) (344 MB)](https://zenodo.org/records/19248484/files/animation_s1.vti) and move it to the 'example' directory.
+1. Download the reference dataset : [90° impact (1) (344 MB)](https://zenodo.org/records/19334114/files/HE0903.vti) and move it to the 'example' directory.
 
 2. Go to the `example` directory
  
@@ -74,13 +74,13 @@ This reproduces the images from the Figure 1 of the manuscript *DebrisTracer: Re
 
 ## Downloading the database
 We contribute our database of hypervelocity impact acquisitions, i.e., 7 other two-dimensional time-varying scalar fields (about 2 gigabytes), counting between 256 and 1050 frames, capturing different dynamic fragmentation modalities (projectile-based and laser-based).
-- [90° impact (2) (463 MB)](https://zenodo.org/records/19250540/files/90_HE0905.vti)
-- [90° impact (3) (546 MB)](https://zenodo.org/records/19250595/files/90_HE09013.vti)
-- [90° impact (4) (558 MB)](https://zenodo.org/records/19250495/files/90_HE0904.vti)
-- [90° impact (5) (67 MB)](https://zenodo.org/records/19249889/files/mica18.vti)
-- [45° impact (1) (216 MB)](https://zenodo.org/records/19250442/files/45_HE0911.vti)
-- [45° impact (2) (224 MB)](https://zenodo.org/records/19250008/files/45_HE908.vti)
-- [Laser impact (204 MB)](https://zenodo.org/records/19250725/files/Belenos_laser.vti)
+- [90° impact (2) (463 MB)](https://zenodo.org/records/19334114/files/90_HE0905.vti)
+- [90° impact (3) (546 MB)](https://zenodo.org/records/19334114/files/90_HE09013.vti)
+- [90° impact (4) (558 MB)](https://zenodo.org/records/19334114/files/90_HE0904.vti)
+- [90° impact (5) (67 MB)](https://zenodo.org/records/19334114/files/90_impact_M.vti)
+- [45° impact (1) (216 MB)](https://zenodo.org/records/19334114/files/45_HE0911.vti)
+- [45° impact (2) (224 MB)](https://zenodo.org/records/19334114/files/45_HE908.vti)
+- [Laser impact (204 MB)](https://zenodo.org/records/19334114/files/laser_impact.vti)
 
 ## Reference
 
