@@ -70,7 +70,7 @@ To run the provided example :
 paraview example.pvsm
 ```
 
-This reproduces the images from the Figure 1 of the manuscript *DebrisTracer: Reliable Tracking in Hypervelocity Impact Fast Imaging*.
+This reproduces the images from the Figure 1 of the manuscript *DebrisTracer: Reliable Tracking in Hypervelocity Impact Fast Imaging*. Note that Figure 1 is spread across 3 layouts in the example.
 
 ## Downloading the database
 We contribute our database of hypervelocity impact acquisitions, i.e., 7 other two-dimensional time-varying scalar fields (about 2 gigabytes), counting between 256 and 1050 frames, capturing different dynamic fragmentation modalities (projectile-based and laser-based).
