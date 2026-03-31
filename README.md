@@ -93,8 +93,6 @@ In all experiments, transverse shadowgraphy with a white light source and ultra-
 
 DebrisTracer: Reliable Tracking in Hypervelocity Impact Fast Imaging
 
-Théophane Loloum, Fabien Vivodtzev, David Hébert, Baptiste Reynier, Michel Arrigoni and Julien Tierny.
-
 <a id="ref1"></a>[1] Seisson, G., Hébert, D., Hallo, L., Chevalier, J.-M., Guillet, F., 
 Berthe, L., & Boustie, M. (2014). Penetration and cratering experiments of graphite by 
 0.5-mm diameter steel spheres at various impact velocities. *International Journal of 
@@ -107,3 +105,6 @@ paraffin gel. *International Journal of Impact Engineering*.
 
 <a id="ref3"></a>[3] Thiot Ingénierie (2026). 
 [https://www.thiot-ingenierie.com/fr/lanceurs-a-gaz-et-autres-equipements/lanceurs-a-gaz-double-etage/](https://www.thiot-ingenierie.com/fr/lanceurs-a-gaz-et-autres-equipements/lanceurs-a-gaz-double-etage/)
+
+
+Théophane Loloum, Fabien Vivodtzev, David Hébert, Baptiste Reynier, Michel Arrigoni and Julien Tierny.
