@@ -73,7 +73,14 @@ paraview example.pvsm
 This reproduces the images from the Figure 1 of the manuscript *DebrisTracer: Reliable Tracking in Hypervelocity Impact Fast Imaging*. Note that Figure 1 is spread across 3 layouts in the example.
 
 ## Downloading the database
-We contribute our database of hypervelocity impact acquisitions, i.e., 7 other two-dimensional time-varying scalar fields (about 2 gigabytes), counting between 256 and 1050 frames, capturing different dynamic fragmentation modalities (projectile-based and laser-based).
+Database of hypervelocity impact acquisitions, capturing different dynamic fragmentation modalities (projectile-based and laser-based). These datasets are intended to be used with the accompanying processing software, available at [https://github.com/tloloum/DebrisTracer](https://github.com/tloloum/DebrisTracer).
+
+The experimental tests were conducted on several facilities:
+- A two-stage light-gas gun (2SLGG) named MICA [[1]](#ref1), located at ENSTA, Brest, France, and a 2SLGG HERMES at Thiot Ingenierie [[3]](#ref3). Both of these facilities are capable of accelerating a millimeter size projectile to hypersonic speeds between a few hundreds m/s and 6700 m/s, enabling studies of hypervelocity impacts.
+- A high power laser facility named BELENOS [[2]](#ref2) at ENSTA, Brest, France. BELENOS laser pulse is capable of delivering a maximum energy of 3 J at 1064 nm with a Gaussian temporal pulse and a full width at half maximum of 7.5 ns.
+
+In all experiments, transverse shadowgraphy with a white light source and ultra-high speed camera (Shimadzu HPVX2) up to 2 million frames per second was performed to visualize the ejected debris on the target rear face (opposite to the projectile impact / laser beam). The debris can be collected using a paraffin gel collector with a very high collection rate. Post-mortem gel samples were then analyzed by means of X-ray micro-tomography at CRT Morlaix (France). These analyses enabled the representative size and mass distribution of the ejecta to be determined and compared with values extracted from our Topological Data Analysis method (DebrisTracer).
+
 - [90° impact (2) (463 MB)](https://zenodo.org/records/19334114/files/90_HE0905.vti)
 - [90° impact (3) (546 MB)](https://zenodo.org/records/19334114/files/90_HE09013.vti)
 - [90° impact (4) (558 MB)](https://zenodo.org/records/19334114/files/90_HE0904.vti)
@@ -87,3 +94,16 @@ We contribute our database of hypervelocity impact acquisitions, i.e., 7 other t
 DebrisTracer: Reliable Tracking in Hypervelocity Impact Fast Imaging
 
 Théophane Loloum, Fabien Vivodtzev, David Hébert, Baptiste Reynier, Michel Arrigoni and Julien Tierny.
+
+<a id="ref1"></a>[1] Seisson, G., Hébert, D., Hallo, L., Chevalier, J.-M., Guillet, F., 
+Berthe, L., & Boustie, M. (2014). Penetration and cratering experiments of graphite by 
+0.5-mm diameter steel spheres at various impact velocities. *International Journal of 
+Impact Engineering*, 70, 14–20. [https://doi.org/10.1016/j.ijimpeng.2014.03.004](https://doi.org/10.1016/j.ijimpeng.2014.03.004)
+
+<a id="ref2"></a>[2] Reynier, B., Mircioaga, R. M., Le Clanche, J., Taddei, L., Chevalier, 
+J. M., Hébert, D., & Arrigoni, M. (2025). High-velocity laser-driven flyer impact on 
+paraffin gel. *International Journal of Impact Engineering*. 
+[https://doi.org/10.1016/j.ijimpeng.2025.105311](https://doi.org/10.1016/j.ijimpeng.2025.105311)
+
+<a id="ref3"></a>[3] Thiot Ingénierie (2026). 
+[https://www.thiot-ingenierie.com/fr/lanceurs-a-gaz-et-autres-equipements/lanceurs-a-gaz-double-etage/](https://www.thiot-ingenierie.com/fr/lanceurs-a-gaz-et-autres-equipements/lanceurs-a-gaz-double-etage/)
