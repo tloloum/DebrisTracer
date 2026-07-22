@@ -1,6 +1,6 @@
 # DebrisTracer: Reliable Tracking in Hypervelocity Impact Fast Imaging
 
-This repository contains the code and instructions for downloading the data used for the paper *DebrisTracer: Reliable Tracking in Hypervelocity Impact Fast Imaging*
+This repository contains the code and instructions for downloading the data used for the paper [DebrisTracer: Reliable Tracking in Hypervelocity Impact Fast Imaging](https://arxiv.org/abs/2607.15986)
 
 These instructions have been tested with a fresh install of Ubuntu 24.04 LTS. Adjustments may be required for other operating systems.
 
